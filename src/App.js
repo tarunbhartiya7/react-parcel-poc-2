@@ -4,10 +4,12 @@ import SearchParams from "./SearchParams";
 
 const App = () => {
   return (
-    <div id="this-is-how-you-add-attribute">
-      <h1>Adopt Me!</h1>
-      <SearchParams />
-    </div>
+    <React.StrictMode>
+      <div id="this-is-how-you-add-attribute">
+        <h1>Adopt Me!</h1>
+        <SearchParams />
+      </div>
+    </React.StrictMode>
   );
 };
 render(<App />, document.getElementById("root"));
